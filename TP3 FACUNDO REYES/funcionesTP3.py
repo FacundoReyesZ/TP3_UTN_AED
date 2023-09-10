@@ -187,7 +187,7 @@ def mostrar_registros_ordenados(arr):
             pais = "Otro"
 
         # Imprimimos el registro
-        print(f'Identificador: {vehic.identificador}  |  Patente: {vehic.patente}  |  País: {pais}')
+        print(f'{vehic}  |  País: {pais}')
 
 
 def buscar_patente_y_pais(arr):
